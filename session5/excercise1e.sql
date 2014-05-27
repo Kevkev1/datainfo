@@ -1,0 +1,1 @@
+﻿DELETE FROM Boek WHERE isbn=1;
