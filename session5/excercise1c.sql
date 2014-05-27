@@ -1,0 +1,5 @@
+﻿INSERT INTO Exemplaar
+VALUES (55555, 1, 10.0, 1);
+
+INSERT INTO Exemplaar
+VALUES (3, 1, 10.0, 1);
