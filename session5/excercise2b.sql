@@ -13,11 +13,11 @@ UPDATE Boek SET titel = titel || ' deel 1' WHERE isbn = '0321228383
 --read2(x): 
 SELECT titel FROM Boek WHERE isbn = ' 0136067018';
 
---Rollback1:
-ROLLBACK();
+--Commit2:
+COMMIT();
 
 --write2(x): 
 UPDATE Boek SET titel = titel || ' deel 2' WHERE isbn = ' 0136067018';
 
---Commit2:
-COMMIT();
+--Rollback1:
+ROLLBACK();
